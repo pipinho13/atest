@@ -19,3 +19,6 @@ REM Because this pathname of the .git directory starts with a dot, it won’t sh
 REM many of the ways you list files in a directory. From a bash shell, you can see files
 REM that start with . by running ls -a from within that directory.
 
+# https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+
+$ git push -u origin master
