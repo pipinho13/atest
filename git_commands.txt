@@ -1,0 +1,21 @@
+###change directory
+$ cd /c/atest
+
+$ cd ..
+
+
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+
+
+gpipis@GPIPIS-LT MINGW64 /c/atest
+$ git init
+Initialized empty Git repository in C:/atest/.git/
+
+
+
+REM Because this pathname of the .git directory starts with a dot, it won’t show up in
+REM many of the ways you list files in a directory. From a bash shell, you can see files
+REM that start with . by running ls -a from within that directory.
+
